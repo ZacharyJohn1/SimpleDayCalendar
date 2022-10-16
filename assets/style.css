@@ -28,21 +28,25 @@ body {
   .time-block {
     text-align: center;
     border-radius: 15px;
+    width: 500px;
+    height: 100px;
   }
   
   .row {
-    display: block;
+    display: flex;
+    /* align-items: center; */
+    margin: 10px;
+    justify-content: center;
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
   
   .hour {
-    display: block;
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
-    border-bottom: 1px dashed #000000;
+    font-size: larger;
   }
   
   .past {
@@ -66,6 +70,7 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    width: 100px;
   }
   
   .saveBtn i:hover {
